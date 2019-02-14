@@ -5,6 +5,21 @@ h1 {
     font-size:3em;
     letter-spacing: 10px;
 }
+h2 {
+    font-size: 2.5em;
+}
+header {
+    text-align: center;
+}
+nav {
+  background: #ec6f66; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ec6f66, #f3a183); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ec6f66, #f3a183); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+nav ul {
+    margin-left:-3.5%;
+}
 nav ul li {
     list-style: none;
     display:inline-block;
@@ -15,6 +30,14 @@ main {
 h3 {
     font-size: 2.5em;
     width:100%;
-    border-bottom: 2px solid black;
+    border-bottom: 4px solid #ec6f66;
     /* border-bottom-color: black; */
+}
+.iconColor {
+    color: rgb(10, 29, 136);
+    padding:10px;
+    
+}
+.iconColor:hover {
+    color: rgb(176, 182, 221);
 }
